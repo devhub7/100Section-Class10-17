@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/*Installing Webfonts*/
+
+@font-face {
+    font-family: 'CodeLight';
+    src:url('assets/fonts/CODE-Light.woff') format('woff'),
+        url('assets/fonts/CODE-Light.woff2') format('woff2'),
+        url('assets/fonts/CODE-Light.eot'),
+        url('assets/fonts/CODE-Light.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/CODE-Light.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {  
+    font-family: 'CodeBold';
+    src:url('assets/fonts/CODE-Bold.woff') format('woff'),
+        url('assets/fonts/CODE-Bold.woff2') format('woff2'),
+        url('assets/fonts/CODE-Bold.eot'),
+        url('assets/fonts/CODE-Bold.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/CODE-Bold.otf') format('truetype');
+
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+/*Base CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px; 
+}
+
+a:focus {
+    outline: 0 solid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: normal;
+	font-family: 'CodeLight', sans-serif;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+
+/*main css*/
+html, body {
+	height: 100%;
+}
+body {
+	font-family: 'Karla', sans-serif;
+}
+
+.product-bg1 {
+	background: url(assets/img/lady-1.png);
+}
+.product-bg2 {
+	background: url(assets/img/lady-2.png);
+}
+.product-bg3 {
+	background: url(assets/img/lady-3.png);
+}
+.product-bg4 {
+	background: url(assets/img/lady-4.png);
+}
+.product-bg5 {
+	background: url(assets/img/lady-5.png);
+}
+.product-bg6 {
+	background: url(assets/img/lady-6.png);
+}
+.product-bg7 {
+	background: url(assets/img/lady-7.png);
+}
+.product-bg8 {
+	background: url(assets/img/lady-8.png);
+}
+.product-bg9 {
+	background: url(assets/img/lady-9.png);
+}
+.product-bg10 {
+	background: url(assets/img/lady-10.png);
+}
+
+.homepage-slider-wrap {
+    background: url(assets/img/hero-bg.jpg);
+    background-color: #EBD7D0;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+}
+.header-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.header-top-area {
+    font-size: 13px;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header-left ul li {
+    display: inline-block;
+}
+
+.header-top-area a {
+    color: #5b3f61;
+	padding: 14px;
+	text-transform: uppercase;
+	display: inline-block;
+}
+
+.header-right {
+    text-align: right;
+}
+
+a.search-trigger i.fa-search {
+    padding-left: 10px;
+}
+a.menu-trigger {
+	display: none;
+}
+.homepage-slider-wrap div {
+    height: 100%;
+}
+
+.single-slide-item {
+    position: relative;
+}
+
+.single-slide-item img {
+    position: absolute;
+    width: 700px;
+    left: 50%;
+    margin-left: -350px;
+    bottom: 0;
+}
+
+
+.slide-text-table {
+    display: table;
+	width: 100%;
+}
+
+.slide-text-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 10%;
+    font-family: "CodeLight", sans-serif;
+    text-transform: uppercase;
+    font-size: 120px;
+    line-height: 90px;
+    color: #E84F88;
+    position: relative;
+    z-index: 9;
+}
+
+.slide-text-tablecell strong {
+    font-family: 'CodeBold';
+    font-weight: normal;
+}
+p.alternative-color {
+    color: #6db0c6;
+}
+
+/*2nd section: Big Menu*/
+ul.big-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    text-align: right;
+    text-transform: uppercase;
+    color: #5b3f61;
+    font-size: 50px;
+    font-family: 'CodeLight', sans-serif;
+}
+
+ul.big-menu li:nth-child(2),
+
+ul.big-menu li:nth-child(3) {
+    width: 20%;
+}
+
+ul.big-menu li:nth-child(2) {
+    background-color: #f1e5e5;
+    color: #e84f88;
+    font-family: 'codebold', sans-serif;
+}
+
+ul.big-menu li:nth-child(3) {
+    background-color: #f6f3e6;
+}
+
+ul.big-menu li:nth-child(4) {
+    background-color: #ecf4f5;
+}
+
+ul.big-menu li {
+    background-color: #ecf3e8;
+    width: 30%;
+    float: left;
+    padding: 170px 30px 30px;
+    cursor: pointer;
+    transition: all ease .5s;
+}
+
+ul.big-menu li:hover {
+    opacity: .8;
+}
+

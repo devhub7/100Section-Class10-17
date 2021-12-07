@@ -1,0 +1,64 @@
+/*Base CSS*/
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright{
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px; 
+}
+
+a:focus {
+    outline: 0 solid;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+}
+
+a:hover, a:focus {
+    text-decoration: none;
+}
+
+.product-bg1 {
+	background: url(assets/img/lady-1.png);
+}
+.product-bg2 {
+	background: url(assets/img/lady-2.png);
+}
+.product-bg3 {
+	background: url(assets/img/lady-3.png);
+}
+.product-bg4 {
+	background: url(assets/img/lady-4.png);
+}
+.product-bg5 {
+	background: url(assets/img/lady-5.png);
+}
+.product-bg6 {
+	background: url(assets/img/lady-6.png);
+}
+.product-bg7 {
+	background: url(assets/img/lady-7.png);
+}
+.product-bg8 {
+	background: url(assets/img/lady-8.png);
+}
+.product-bg9 {
+	background: url(assets/img/lady-9.png);
+}
+.product-bg10 {
+	background: url(assets/img/lady-10.png);
+}
+.homepage-slider-wrap {
+	background: url(assets/img/hero-bg.jpg);
+}

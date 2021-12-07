@@ -1,0 +1,307 @@
+/* 06.
+XXlarge devices(Xtra large desktop start with 1400px and above up) - screen width equal to or greater than 1400px thats mean X-large Device Layout: ≥1400px and above up thats mean Extra large devices are defined as having a screen width from ≥1400px and above up
+*/
+@media only screen and (min-width: 1400px)  {
+    .homepage-slider-wrap div:not(.owl-nav) {
+        height: 95%;
+    }
+}
+
+
+/* 05.
+Extra Large devices(large desktop 1200px and up less than 1400px) - Extra Large devices are defined as having a screen width from 1200 pixels and above up to 1399.98 pixels. Screen width equal to or greater than ≥1200px and up less than <1400px thats mean Xlarge Device Layout: ≥1200px to <1400px
+*/
+@media only screen and (min-width: 1200px) and (max-width: 1399.98px) {
+    .slide-text-tablecell {
+        padding-left: 13%;
+        font-size: 110px;
+        line-height: 90px;
+    }
+    .homepage-slider-wrap div:not(.owl-nav) {
+        height: 95%;
+    }
+}
+
+/* 04.
+Large devices(desktop, 992px and up less than 1200px)  -Large devices are defined as having a screen width from 992 pixels to 1199.98 pixels. screen width equal to or greater than 992px and up less than <1200px thats mean Large Device Layout: ≥992px to <1200px
+*/
+@media only screen and (min-width: 992px) and (max-width: 1199.98px) {
+    ul.big-menu li {
+        width: 25% !important;
+    }
+    .single-product-item {
+        height: 250px;
+        margin-bottom: 15px;
+        background-size: contain;
+    }
+    .single-product-item:nth-child(2) {
+        height: 515px;
+    }
+    .brand-images {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .slide-text-tablecell {
+        padding-left: 10%;
+        font-size: 100px;
+        line-height: 80px;
+    }
+    .owl-carousel .owl-item .single-slide-item img{
+        width: 600px !important;
+        left: 50%;
+        margin-left: -300px;
+    }
+     .owl-carousel .owl-item .promo-bg img {
+        width: 600px !important;
+        left: 66%;
+        margin-left: -300px;
+    }
+
+    input[type="email"] {
+        min-width: 280px;
+    }
+    input[type="submit"] {
+        padding: 9px 18px;
+    }
+    .homepage-slider-wrap div:not(.owl-nav) {
+        height: 95%;
+    }
+}
+
+/* 03.
+Medium devices(tablets, 768px and up less than 992px) -Medium devices are defined as having a screen width from 768 pixels to 991.98 pixels. screen width equal to or greater than 768px and up less than <992px thats mean Medium Device Layout: ≥768px to <992px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991.98px) {
+    .header-top-area a {
+        padding: 12px;
+    }
+    .homepage-slider-wrap div:not(.owl-nav) {
+        height: 95%;
+    }
+    .owl-carousel .owl-item .single-slide-item img{
+        width: 600px !important;
+        left: 50%;
+        margin-left: -300px;
+    }
+     .owl-carousel .owl-item .promo-bg img {
+        width: 600px !important;
+        left: 66%;
+        margin-left: -300px;
+    }
+    .slide-text-tablecell {
+        padding-left: 7%;
+        font-size: 90px;
+        line-height: 60px;
+    }
+
+    ul.big-menu {
+        font-size: 30px;
+    }
+    ul.big-menu li {
+        padding: 90px 25px 30px;
+    }
+    .products-area {
+        padding-top: 75px;
+    }
+    .single-product-item {
+        height: 275px;
+        margin-left: 2%;
+        margin-bottom: 15px;
+        width: 31.3333%;
+    }
+    .single-product-item:nth-child(2) {
+        width: 62.6666%;
+        height: 565px;
+    }
+    .single-product-item:nth-child(4), .single-product-item:nth-child(9) {
+        width: 64.6666%;
+    }
+    a.load-more-products-btn {
+        margin: 30px 0 50px 0;
+    }
+    a.boxed-btn {
+        margin-bottom: 10px;
+    }
+    .brand-images {
+        margin-top: 70PX;
+        margin-bottom: 50px;
+    }
+    .footer-area {
+        text-align: center;
+    }
+    
+    .footer-area .text-right {
+        text-align: center !important;
+    }
+    .footer-menu ul li a {
+    padding: 0 5px;
+    }
+    .promo-bg {
+        background: #f4f0f0;
+        position: relative;
+        height: 500px;
+        width: 100%;
+    }
+    .owl-carousel .owl-item .promo-bg img {
+        width: 350px !important;
+        left: 50%;
+    }
+}
+
+/* 02. 
+Small devices(lansscape phones, 576px and up less than 768px) - Small devices are defined as having a screen width from ≥576 pixels to 767.98 pixels. screen width equal to or greater than 576px and up less than 768px thats mean Small Device Layout: ≥576px to <768px
+*/
+@media only screen and (min-width: 576px) and (max-width: 767.98px) { 
+    .brand-images {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .footer-menu ul li a {
+        padding: 4px;
+    }
+    .footer-area {
+        padding: 50px;
+        text-align: center;
+    }
+    .email-subscribe-form,.social-links {
+        text-align: center;
+    }
+    input[type="email"] {
+        margin-bottom: 15px;
+    }
+    a.boxed-btn {
+        padding: 10px 38px;
+        margin-bottom: 0px;
+    }  
+    .owl-carousel .owl-item .single-slide-item img {
+        display: none;
+    }
+    .header-left {
+        margin-top: 15px;
+        margin-left: 15px;
+    }
+    .header-right {
+        padding-top: 10px;
+    }
+    .header-left ul {
+        margin-left: 50px;
+    }
+    .header-top-area a {
+        padding: 0 2px;
+    }
+    .header-right a {
+        padding: 0 7px;
+    }
+    ul.big-menu {
+        font-size: 30px;
+    }
+    ul.big-menu li {
+        width: 25% !important;
+        padding: 20px;
+    }
+    .products-area {
+        padding-top: 50px;
+    }
+    .single-product-item {
+        width: 98% !important;
+        float: none;
+    }
+    a.load-more-products-btn {
+        margin-bottom: 50px;
+    }
+
+}
+
+
+/* 01.
+Extra small devices -(portrait phones, less than <576px)screen width less than 576px thats mean Extra Small Device Layout: <576px
+*/
+@media only screen and (max-width: 575.98px) {
+    a.menu-trigger {
+        float: right;
+    }
+    .header-left ul {
+        display: none;
+    }    
+    .header-right {
+        display: none;
+    }
+    .slide-text-tablecell {
+        font-size: 4rem;
+        line-height: 3.5rem;
+        text-align: center;
+        padding-left: 0;
+        padding: 10% 0;
+    }
+
+    .header-top-area {
+        position: relative;
+    }
+    .homepage-slider-wrap div:not(.owl-nav) {
+        height: auto;
+    }
+    .homepage-slider-wrap {
+        height: auto;
+    }
+    .owl-carousel .owl-item .single-slide-item img{
+        display: none;
+    }
+
+    ul.big-menu li {
+        width: auto !important;
+        float: none;
+        padding: 50px;
+        text-align: center;
+    }
+    ul.big-menu {
+        font-size: 40px;
+    }
+    .products-area {
+        padding-top: 50px;
+    }
+
+    /* .single-product-item,
+    .single-product-item:nth-child(2),
+    .single-product-item:nth-child(4), 
+    .single-product-item:nth-child(8), 
+    .single-product-item:nth-child(9) {
+        width: 98%;
+        float: none;
+    } */
+
+    .single-product-item {
+        width: 98% !important;
+        float: none;
+    }
+    .promo-title {
+        margin-bottom: 15px;
+    }
+    .promo-title span {
+        font-size: 90px;
+        top: -16px;
+        right: -60px;
+    }
+    .brand-images {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .footer-menu ul li a {
+        padding: 4px;
+    }
+    .footer-area {
+        padding: 50px;
+        text-align: center;
+    }
+    .email-subscribe-form,.social-links {
+        text-align: center;
+    }
+    input[type="email"] {
+        margin-bottom: 15px;
+    }
+    a.boxed-btn {
+        padding: 10px 38px;
+        margin-bottom: 0px;
+    }
+}
